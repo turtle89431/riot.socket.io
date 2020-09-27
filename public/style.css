@@ -1,6 +1,9 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+.main {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: rgb(18, 59, 43) !important;
 }
