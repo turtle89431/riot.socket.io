@@ -1,0 +1,13 @@
+<my-component>
+    <p>{ props.message }</p>
+    <script>
+        export default {
+            onMounted() {
+                this.io.emit("hello", "hi")
+                this.io.on("hello", d => {
+                    console.log(d)
+                })
+            }
+        }
+    </script>
+</my-component>
